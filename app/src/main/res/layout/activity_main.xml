@@ -15,7 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Number1"
         android:ems="10"
         android:id="@+id/editText" />
 
@@ -23,38 +23,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Number2"
         android:ems="10"
         android:id="@+id/editText2" />
 
     <Button
-        android:text="Button"
+        android:text="plus"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:id="@+id/button" />
 
     <Button
-        android:text="Button"
+        android:text="minus"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2" />
 
     <Button
-        android:text="Button"
+        android:text="multiful"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3" />
 
     <Button
-        android:text="Button"
+        android:text="divide"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button4" />
+        android:id="@+id/button5" />
 
     <TextView
-        android:text="TextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
+        android:id="@+id/textView3" />
+
 
 </LinearLayout>
