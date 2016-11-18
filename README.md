@@ -9,3 +9,5 @@
 <br><img src="https://github.com/qhdl301/android-homework1/blob/master/app/fix/Screenshot_1479362513.png?raw=true" width="200"></br>
 2개 등록 안될 경우 화면
 <br><img src="https://github.com/qhdl301/android-homework1/blob/master/app/fix/Screenshot_1479362813.png?raw=true" width="200"></br>
+실행 화면 나누기
+<br><img src="https://github.com/qhdl301/android-homework1/blob/master/app/fix/Screenshot_1479432393.png?raw=true" width="200"></br>
