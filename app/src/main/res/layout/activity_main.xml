@@ -26,28 +26,34 @@
         android:id="@+id/editText2" />
 
     <Button
-        android:text="plus"
-        android:layout_width="352dp"
+        android:text="더하기"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button" />
 
     <Button
-        android:text="minus"
+        android:text="뺴기"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button2" />
 
     <Button
-        android:text="multiful"
+        android:text="곱셈"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button3" />
 
     <Button
-        android:text="divide"
+        android:text="나눗셈"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button5" />
+
+    <Button
+        android:text="나머지"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
 
     <TextView
         android:layout_width="match_parent"

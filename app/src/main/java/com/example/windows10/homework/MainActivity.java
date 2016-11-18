@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText et1,et2;
-    Button button1, button2, button3, button4;
+    Button button1, button2, button3, button4, button5;
     TextView tv;
     String myStr1, myStr2;
     double num;
@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         button2 = (Button)findViewById(R.id.button2);
         button3 = (Button)findViewById(R.id.button3);
         button4 = (Button)findViewById(R.id.button5);
+        button5 = (Button)findViewById(R.id.button4);
 
         tv=(TextView)findViewById(R.id.textView3);
 
@@ -88,6 +89,20 @@ public class MainActivity extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(), "0으로 나눌 수 없습니다.", Toast.LENGTH_SHORT).show();
                 }else{
                     num = Double.parseDouble(myStr1) / Double.parseDouble(myStr2);
+                    tv.setText("계산 결과 : " + num);
+                }
+            }
+        });
+        button5.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                myStr1 = et1.getText().toString();
+                myStr2 = et2.getText().toString();
+                if(myStr1.isEmpty() || myStr2.isEmpty()){
+                    Toast.makeText(getApplicationContext(), "하나라도 입력해요", Toast.LENGTH_SHORT).show();
+                }else{
+                    num = Integer.parseInt(myStr1) % Integer.parseInt(myStr2);
                     tv.setText("계산 결과 : " + num);
                 }
             }
